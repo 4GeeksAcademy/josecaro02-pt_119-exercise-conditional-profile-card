@@ -36,7 +36,7 @@ function render(variables = {}) {
   document.querySelector("#widget_content").innerHTML = `<div class="widget">
             ${cover}
           <img src="${variables.avatarURL}" class="photo" />
-          <h1>${variables.name == null ? "Patricia" : variables.name} Boilett</h1>
+          <h1>${variables.name == null ? "Lucy" : variables.name} Boilett</h1>
           <h2>${variables.role == null ? "Web Developer!" : variables.role}</h2>
 
           <h3>San Francisco - Orlando, USA</h3>
